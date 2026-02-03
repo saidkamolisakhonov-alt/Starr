@@ -3,20 +3,18 @@ import json
 import random
 from datetime import datetime
 
-import os
 from aiogram import Bot, Dispatcher, types
 from aiogram.filters import Command, CommandStart
 from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup
+from aiogram.enums import ParseMode
 
-# Получаем токены из переменных окружения (Secrets)
-TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
-ADMIN_ID = int(os.getenv("ADMIN_ID", 0))
+from config import BOT_TOKEN, ADMIN_ID
 
-if not TOKEN:
-    raise ValueError("TELEGRAM_BOT_TOKEN not found in environment variables!")
 
-bot = Bot(TOKEN)
+bot = Bot(token=BOT_TOKEN, parse_mode=ParseMode.HTML)
 dp = Dispatcher()
+
+print("BOT FILE LOADED")
 
 # ===== ЗАГРУЗКА ВОПРОСОВ =====
 with open("questions.json", "r", encoding="utf-8") as f:
@@ -87,11 +85,7 @@ async def send_question(user_id: int, chat_id: int):
         ]
     )
 
-    await bot.send_message(
-        chat_id,
-        q["question"],
-        reply_markup=keyboard
-    )
+    await bot.send_message(chat_id, q["question"], reply_markup=keyboard)
 
 # ===== /START =====
 @dp.message(CommandStart())
@@ -117,79 +111,26 @@ async def handle_answer(callback: types.CallbackQuery):
     correct_text = q["options"][q["correct"]]
 
     if user_answer == correct_answer:
-        result_text = f"{q['question']}\n\n✔ **Верно!**\n\nПравильный ответ:\n{correct_text}"
+        result_text = (
+            f"{q['question']}\n\n"
+            f"✔ <b>Верно!</b>\n\n"
+            f"Правильный ответ:\n{correct_text}"
+        )
     else:
-        result_text = f"{q['question']}\n\n❌ **Неверно**\n\nВерный ответ:\n{correct_text}"
+        result_text = (
+            f"{q['question']}\n\n"
+            f"❌ <b>Неверно</b>\n\n"
+            f"Верный ответ:\n{correct_text}"
+        )
 
-    # Редактируем сообщение с вопросом, заменяя его на результат
-    await callback.message.edit_text(text=result_text, reply_markup=None, parse_mode="Markdown")
-
+    await callback.message.edit_text(result_text)
     await asyncio.sleep(2.5)
     await send_question(user_id, callback.message.chat.id)
 
-# ===== /USINFO (ТОЛЬКО АДМИН) =====
-@dp.message(Command("usinfo"))
-async def usinfo(message: types.Message):
-    if message.from_user.id != ADMIN_ID:
-        return
-
-    try:
-        with open("users.json", "r", encoding="utf-8") as f:
-            users = json.load(f)
-    except:
-        users = []
-
-    text = f"👥 Пользователи бота\n\nВсего: {len(users)}\n\n"
-
-    for u in users[-10:]:
-        text += (
-            f"• {u['first_name'] or 'Без имени'} "
-            f"(@{u['username']})\n"
-            f"ID: {u['id']}\n"
-            f"С: {u['joined']}\n\n"
-        )
-
-    await message.answer(text)
-
-# ===== /BROADCAST (ТОЛЬКО АДМИН) =====
-@dp.message(Command("broadcast"))
-async def broadcast(message: types.Message):
-    if message.from_user.id != ADMIN_ID:
-        return
-
-    text = message.text.replace("/broadcast", "").strip()
-    if not text:
-        await message.answer("❗ Напиши текст после /broadcast")
-        return
-
-    try:
-        with open("users.json", "r", encoding="utf-8") as f:
-            users = json.load(f)
-    except:
-        users = []
-
-    sent = 0
-    failed = 0
-
-    for u in users:
-        try:
-            await bot.send_message(
-                u["id"],
-                f"📢 Сообщение от администратора:\n\n{text}"
-            )
-            sent += 1
-            await asyncio.sleep(0.05)
-        except:
-            failed += 1
-
-    await message.answer(
-        f"✅ Рассылка завершена\n\n"
-        f"Отправлено: {sent}\n"
-        f"Не доставлено: {failed}"
-    )
-
 # ===== ЗАПУСК =====
 async def main():
+    await bot.delete_webhook(drop_pending_updates=True)
+    print("BOT STARTED, polling...")
     await dp.start_polling(bot)
 
 if __name__ == "__main__":
