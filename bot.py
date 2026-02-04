@@ -135,6 +135,40 @@ async def usinfo(message: types.Message):
 
     await message.answer(text)
 
+@dp.message(Command("broadcast"))
+async def broadcast(message: types.Message):
+    if message.from_user.id != ADMIN_ID:
+        return
+
+    text = message.text.replace("/broadcast", "", 1).strip()
+    if not text:
+        await message.answer("❗ Напиши текст после /broadcast")
+        return
+
+    users_list = load_json("users.json", [])
+
+    sent = 0
+    failed = 0
+
+    for u in users_list:
+        try:
+            await bot.send_message(
+                u["id"],
+                f"📢 Сообщение от администратора:\n\n{text}"
+            )
+            sent += 1
+            await asyncio.sleep(0.05)
+        except:
+            failed += 1
+
+    await message.answer(
+        f"✅ Рассылка завершена\n\n"
+        f"Отправлено: {sent}\n"
+        f"Не доставлено: {failed}"
+    )
+
+
+
 # ================== START ==================
 async def main():
     print("🤖 Bot started (Railway)")
