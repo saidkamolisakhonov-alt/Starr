@@ -1,1031 +1,2270 @@
 [
   {
-    "question": "He__________ a second interview conducted by a panel of managers.",
+    "question": "Microsoft Word – это?",
     "options": [
-      "attended",
-      "appointed",
-      "took",
-      "applied"
+      "Текстовый редактор",
+      "Табличный редактор",
+      "Графический редактор",
+      "Графический редактор"
     ],
     "correct": 0
   },
   {
-    "question": "While he was _________ Josef studied for a master degree.",
+    "question": "Без каких объектов не может существовать база данных?",
     "options": [
-      "unemployed",
-      "offered",
-      "retired",
-      "worked"
+      "Без таблиц",
+      "Без отчетов",
+      "Без форм",
+      "Без запросов"
     ],
     "correct": 0
   },
   {
-    "question": "He found a new job, but was _________ after arguing with his boss.",
+    "question": "Бесплатные программы, свободно распространяемые, поддерживаются самим пользователем, который правомочен вносить в них необходимые изменения – это",
     "options": [
-      "dismissed",
-      "hired",
-      "applied",
-      "appointed"
+      "Freeware",
+      "Shareware",
+      "ОЕМ-программы",
+      "Утилитарные программы"
     ],
     "correct": 0
   },
   {
-    "question": "He _________ from business and now lives in south of France.",
+    "question": "Быстродействующая память, расположенная между процессором и оперативной памятью компьютера называется",
     "options": [
-      "retired",
-      "unemployed",
-      "offered",
-      "hired"
+      "кэш-памятью",
+      "флэш-памятью",
+      "постоянной памятью",
+      "внешней памятью"
     ],
     "correct": 0
   },
   {
-    "question": "Could you tell me exactly why you were _________ from OQP?",
+    "question": "В каких случаях используется данный формат абсолютной ссылки на адрес ячейки $A2?",
     "options": [
-      "dismissed",
-      "hired",
-      "applied",
-      "rejected"
+      "при копировании формулы адрес столбца не изменяется",
+      "при копировании формулы адрес столбца и строки не изменяются",
+      "при копировании формулы адрес строки не изменяется",
+      "при копировании формулы адрес столбца и строки изменяются"
     ],
     "correct": 0
   },
   {
-    "question": "After the factory closed, was it difficult _______ a new job?",
+    "question": "В какой базе данных любой набор данных представляется в виде двухмерной таблицы",
     "options": [
-      "to find",
-      "finding",
-      "found",
-      "dismiss"
+      "реляционной модели",
+      "сетевой модели",
+      "иерархической модели",
+      "внешней модели"
     ],
     "correct": 0
   },
   {
-    "question": "When Tom was a child he . . . . . . . . . . ice-cream, but he doesn’t like it now.",
+    "question": "В какой модели облачного сервиса поставщик разрабатывает веб-приложение и самостоятельно управляет им, предоставляя заказчикам доступ к ПО через Интернет?",
     "options": [
-      "used to eat",
-      "use eat",
-      "use to eat",
-      "used eat"
+      "Программное обеспечение как услуга (SaaS)",
+      "Платформа как услуга» (PaaS)",
+      "Инфраструктура как услуга» (IaaS)",
+      "Все как услуга (EaaS)"
     ],
     "correct": 0
   },
   {
-    "question": "Nick wants the money. Please give . . . . . . . . . . to him.",
+    "question": "В какой модели облачного сервиса предоставляется весь перечень операций по разработке, тестированию и разворачиванию веб-приложений можно выполнить в одной интегрированной среде, тем самым исключив затраты на поддержку отдельных сред для конкретных этапов?",
     "options": [
-      "it",
-      "they",
-      "those",
-      "them"
+      "Платформа как услуга» (PaaS)",
+      "Программное обеспечение как услуга (SaaS)",
+      "Инфраструктура как услуга» (IaaS)",
+      "Все как услуга (EaaS)"
     ],
     "correct": 0
   },
   {
-    "question": "If I . . . . . . . . . . rich, I . . . . . . . . . . travel around the world.",
+    "question": "В какой модели облачного сервиса предоставляется клиенту разнообразная компьютерная инфраструктура: серверы, системы хранения данных, сетевое оборудование, а также ПО для управления этими ресурсами?",
     "options": [
-      "were/ would",
-      "have been/would have",
-      "am/would",
-      "were / would have"
+      "Инфраструктура как услуга» (IaaS)",
+      "Платформа как услуга» (PaaS)",
+      "Программное обеспечение как услуга (SaaS)",
+      "Все как услуга (EaaS)"
     ],
     "correct": 0
   },
   {
-    "question": "I . . . . . . . . . . an interesting book at the moment. I’ll return it to the library when I’ve finished.",
+    "question": "В какой инфраструктуре конечные пользователи могут получить доступ к инфраструктуре через Интернет с возможностью использовать вычислительные ресурсы без локальной установки посредством виртуализации?",
     "options": [
-      "am reading",
-      "read",
-      "shall read",
-      "would read"
+      "Облачной",
+      "Традиционной",
+      "Продвинутой",
+      "Инновационной"
     ],
     "correct": 0
   },
   {
-    "question": "The baby began . . . . . . . . . . when his mother . . . . . . . . . ..",
+    "question": "В функции системы управления базами данных входит:",
     "options": [
-      "crying/ left",
-      "to cry /is leaving",
-      "cry / was leaving",
-      "cried / left"
+      "Организация хранения и поиска информации",
+      "Обеспечение глобальной связи",
+      "Обеспечение локальной связи",
+      "Статистическая обработка информации"
     ],
     "correct": 0
   },
   {
-    "question": "He used . . . . . . . . . . much harder last year.",
+    "question": "В электронной таблице адресом ячейки является:",
     "options": [
-      "to work",
-      "working",
-      "worked",
-      "to working"
+      "G234",
+      "2D",
+      "$6F",
+      "$C"
     ],
     "correct": 0
   },
   {
-    "question": ". . . . . . . . . . you like a cup of tea?",
+    "question": "В электронной таблице ячейкой называется:",
     "options": [
-      "Would",
-      "Do",
-      "Could",
-      "Might"
+      "пересечение строки и столбца",
+      "горизонтальный столбец",
+      "вертикальный столбец",
+      "объемный плюс на экране"
     ],
     "correct": 0
   },
   {
-    "question": "The bus service is very good. There is a bus . . . . . . . . . . ten minutes.",
+    "question": "В электронных таблицах Microsoft Excel выделена группа ячеек А1:В3. Сколько ячеек входит в этот диапазон?",
     "options": [
-      "every",
-      "each",
-      "all",
-      "some"
+      "6",
+      "2",
+      "8",
+      "9"
     ],
     "correct": 0
   },
   {
-    "question": "I am fond … . . . . . . . tennis.",
+    "question": "Диапазон в электронных таблицах— это:",
     "options": [
-      "of playing",
-      "playing",
-      "to play",
-      "play"
+      "совокупность клеток, образующих в таблице область прямоугольной формы",
+      "все ячейки одной строки",
+      "все ячейки одного столбца",
+      "множество допустимых значений"
     ],
     "correct": 0
   },
   {
-    "question": "You are . . . . . . . . . . friend I’ve ever had.",
+    "question": "Для пользователя ячейка электронной таблицы идентифицируется:",
     "options": [
-      "the best",
-      "good",
-      "best",
-      "better"
+      "путем последовательного указания имени столбца и номера строки, на пересечении которых располагается ячейка",
+      "адресом машинного слова оперативной памяти, отведенного под ячейку",
+      "специальным кодовым словом",
+      "именем, произвольно задаваемым пользователем"
     ],
     "correct": 0
   },
   {
-    "question": "It’s always difficult for older people . . . . . . . . . . job.",
+    "question": "Для чего используются базы данных? Выберите наиболее полный ответ",
     "options": [
-      "to find",
-      "finding",
-      "find",
-      "to have found"
+      "Для хранения информации",
+      "Для хранения чисел",
+      "Для хранения списков телефонов",
+      "Для хранения фамилий"
     ],
     "correct": 0
   },
   {
-    "question": "We have taken on twenty new . . . . . . . . . . this year already.",
+    "question": "Для чего предназначены запросы в СУБД ACCESS?",
     "options": [
-      "employees",
-      "employers",
-      "employing",
-      "employer"
+      "Для отбора и обработки данных базы",
+      "Для хранения данных базы",
+      "Для ввода данных базы и их просмотра",
+      "Для автоматического выполнения группы команд"
     ],
     "correct": 0
   },
   {
-    "question": "He insisted . . . . . . . . . . calling the police.",
+    "question": "Заголовки столбцов обозначаются:",
     "options": [
-      "on",
-      "for",
-      "of",
-      "with"
+      "латинскими буквами",
+      "только числами",
+      "буквами и числами",
+      "русскими буквами"
     ],
     "correct": 0
   },
   {
-    "question": "When the factory closed most of the staff . . . . . . . . . . redundant.",
+    "question": "Заказ страхового полиса непосредственно через Интернет-сайт страховой компании либо страхового посредника – это",
     "options": [
-      "were made",
-      "make",
-      "making",
-      "make"
+      "Интернет страхование",
+      "Интернет-трейдинг",
+      "Интернет-банкинг",
+      "Интернет маркетинг"
     ],
     "correct": 0
   },
   {
-    "question": "The traffic was so heavy that we . . . . . . . . . . the train.",
+    "question": "Заключение сделок на покупку или продажу ценных бумаг или валютных активов через Интернет, в режиме реального времени – это",
     "options": [
-      "missed",
-      "are missing",
-      "‘ll miss",
-      "miss"
+      "Интернет-трейдинг",
+      "Интернет-банкинг",
+      "Интернет страхование",
+      "Интернет маркетинг"
     ],
     "correct": 0
   },
   {
-    "question": "Have you __________ for jobs in other companies in the area?",
+    "question": "Инструментарий технологии программирования предназначен для",
     "options": [
-      "applied",
-      "trying",
-      "find",
-      "worked"
+      "обеспечения технологии разработки программ",
+      "обслуживания аппаратной части автономных компьютеров и сетей ЭВМ",
+      "решения функциональных задач различных предметных областей",
+      "работы с текстом"
     ],
     "correct": 0
   },
   {
-    "question": "What does WTO stand for?",
+    "question": "Информационная технология – это",
     "options": [
-      "World trade organization",
-      "World tax organization",
-      "World teaching organization",
-      "Westminster teaching office"
+      "процесс, использующий совокупность средств и методов сбора, обработки и передачи данных для получения информации нового качества о состоянии объекта, процесса или явления",
+      "совокупность средств и методов сбора, обработки и передачи данных для получения информации нового качества о состоянии объекта, процесса или явления",
+      "процесс сбора, обработки и передачи данных для получения информации нового качества о состоянии объекта, процесса или явления",
+      "процесс обработки данных для принятия управленческого решения"
     ],
     "correct": 0
   },
   {
-    "question": "What is USP?",
+    "question": "К типу каких программ относятся AVP «Лаборатории Касперского», NOD 32, Doctor Web, McAfee?",
     "options": [
-      "Unique selling point",
-      "United sale performance",
-      "Unique speaking proposition",
-      "Universal selling partner"
+      "Антивирусные программы",
+      "Офисные приложения",
+      "Программы для выхода в Интернет",
+      "Программы, запускаемые от имени администратора"
     ],
     "correct": 0
   },
   {
-    "question": "What does BOGOF stand for?",
+    "question": "Как называется глобальная компьютерная сеть, состоящая из множества компьютерных сетей?",
     "options": [
-      "buy one, get one free",
-      "bring one, get other free",
-      "buy once, get other forever",
-      "bring, open, get, order, find"
+      "Интернет",
+      "Интранет",
+      "Региональная сеть",
+      "Корпоративная сеть"
     ],
     "correct": 0
   },
   {
-    "question": "Find the opposite word –‘ expensive ‘",
+    "question": "Как называется действия, целью которого является захват контроля (повышение прав) над удалённой или локальной вычислительной системой, либо её дестабилизация, либо отказ в обслуживании?",
     "options": [
-      "cheap",
-      "big",
-      "cold",
-      "hot"
+      "Хакерская атака",
+      "Рассылка вируса",
+      "Утилизация данных",
+      "Копирование данных"
     ],
     "correct": 0
   },
   {
-    "question": "Find the opposite word –‘easy’",
+    "question": "Как называется документы, созданные в программе Microsoft Excel?",
     "options": [
-      "difficult",
-      "cheap",
-      "difference",
-      "cold"
+      "“Книга”",
+      "“Презентация”",
+      "“Документ”",
+      "“Лист”"
     ],
     "correct": 0
   },
   {
-    "question": "A particular thing that you have succeeded in doing after a lot of efforts: . . . . . . . .",
+    "question": "Как называется интернет-мошенничество, целью которого является получение идентификационных данных пользователей?",
     "options": [
-      "achievement",
-      "commitment",
-      "rapport",
-      "liability"
+      "Фишинг",
+      "Хакерская атака",
+      "Рассылка вируса",
+      "Утилизация данных"
     ],
     "correct": 0
   },
   {
-    "question": "The opposite meaning of strength is  . . . . . . . . . . . .",
+    "question": "Как называется ключ, доступный любому пользователю информационной системы и предназначенный для подтверждения подлинности электронной цифровой подписи?",
     "options": [
-      "weakness",
-      "advantage",
-      "disadvantage",
-      "negative"
+      "Открытый ключ электронной цифровой подписи",
+      "Средства шифрования",
+      "Закрытый ключ электронной цифровой подписи",
+      "Средства кодирования"
     ],
     "correct": 0
   },
   {
-    "question": "The opposite meaning of weakness . . . . . . . . . .  . . .",
+    "question": "Как называется комплекс аппаратных или программных средств, осуществляющий контроль и фильтрацию проходящих через него информации?",
     "options": [
-      "strength",
-      "advantage",
-      "disadvantage",
-      "positive"
+      "Межсетевой экран",
+      "Контроллер",
+      "Маршрутизатор",
+      "Распределитель"
     ],
     "correct": 0
   },
   {
-    "question": ". . . . . . . . . . - to choose a number of candidates for the next stage of selection.",
+    "question": "Как называется массовая рассылка коммерческой, политической и иной рекламы или иного вида сообщений (информации) лицам, не выражавшим желания их получать?",
     "options": [
-      "Shortlist",
-      "Select",
-      "Choose",
-      "Differentiate"
+      "Спам",
+      "Антиреклама",
+      "Реклама",
+      "Макрос"
     ],
     "correct": 0
   },
   {
-    "question": ". . . . . . . . . . - a letter or number that shows the quality of a student’s work.",
+    "question": "Как называется основной накопитель данных в большинстве компьютеров?",
     "options": [
-      "Grade",
-      "Band",
-      "Point",
-      "Ball"
+      "Жесткий диск",
+      "Процессор",
+      "Системный блок",
+      "Блок питания"
     ],
     "correct": 0
   },
   {
-    "question": "Right now I . . . . . . . . . . two assignments, one for economics and one for quantitative analyses.",
+    "question": "Как называется разновидность компьютерных программ, отличительной особенностью которых является способность к размножению и нанесения вред компьютеру?",
     "options": [
-      "am doing",
-      "am done",
-      "did",
-      "have done"
+      "Компьютерный вирус",
+      "Программный код",
+      "Системная ошибка",
+      "Драйвер"
     ],
     "correct": 0
   },
   {
-    "question": "Once a day he . . . . . . . . . . all his emails.",
+    "question": "Как называется сборник Интернет страниц, объединяющий в себя множество информации?",
     "options": [
-      "checks",
-      "check",
-      "is checking",
-      "are checking"
+      "Веб сайт",
+      "Веб приложение",
+      "Гипертекс",
+      "Веб документ"
     ],
     "correct": 0
   },
   {
-    "question": "This week a friend from Ireland . . . . . . . . . . with me.",
+    "question": "Как называется система обеспечивающая обмен данными между государственными органами?",
     "options": [
-      "has stayed",
-      "have stayed",
-      "stay",
-      "stays"
+      "система межведомственного электронного взаимодействия",
+      "информационная система госорганов",
+      "система электронного документооборота",
+      "информационная система Кабинета Министров Республики Узбекистан"
     ],
     "correct": 0
   },
   {
-    "question": "At the moment I . . . . . . . . . . to hear from an it company who I sent my CV to.",
+    "question": "Как называется услуга, обеспечивающая в сети Интернет обмен информации в реальном времени?",
     "options": [
-      "am waiting",
-      "wait for",
-      "have been waiting",
-      "is waiting"
+      "Чат",
+      "Электронная почта",
+      "Сайт",
+      "Прокси"
     ],
     "correct": 0
   },
   {
-    "question": "How does the company know you are doing a good job? How do they measure your __________?",
+    "question": "Как называется устройство, предназначенное для визуального отображения информации?",
     "options": [
-      "performance",
-      "perform",
-      "performs",
-      "performing"
+      "Монитор (дисплей)",
+      "Планшетный компьютер",
+      "Клавиатура с подсветкой",
+      "Сканер"
     ],
     "correct": 0
   },
   {
-    "question": "From time to time she . . . . . . . . . . a bit of work in her father’s company – usually during the summer holidays.",
+    "question": "Как называются аспекты, связанные с определением, достижением и поддержанием конфиденциальности, целостности, доступности, и достоверности информации или средств её обработки?",
     "options": [
-      "does",
-      "did",
-      "has done",
-      "have done"
+      "Информационная безопасность",
+      "Политика безопасности",
+      "Защита каналов связи",
+      "Управление системой защиты"
     ],
     "correct": 0
   },
   {
-    "question": "I’ve been a student at this university . . . . . . . . . . I was 19.",
+    "question": "Как называются документы, созданные на Microsoft PowerPoint?",
     "options": [
-      "since",
-      "for",
-      "during",
-      "as"
+      "“Презентация”",
+      "“Книга”",
+      "“Документ”",
+      "“Лист”"
     ],
     "correct": 0
   },
   {
-    "question": "I’ve been a student at this university . . . . . . . . . . three years.",
+    "question": "Как называются небольшого размера диаграммы, которые помещаются в одну ячейку?",
     "options": [
-      "for",
-      "since",
-      "as long as",
-      "during"
+      "спарклайн",
+      "гистограмма",
+      "график",
+      "СмартАрт"
     ],
     "correct": 0
   },
   {
-    "question": "I had a great time . . . . . . . . . . my university days.",
+    "question": "Какая вычислительная сеть объединяет абонентов, расположенных в пределах небольшой территории?",
     "options": [
-      "during",
-      "for",
-      "since",
-      "as"
+      "локальная",
+      "глобальная",
+      "региональная",
+      "корпоративная"
     ],
     "correct": 0
   },
   {
-    "question": "I was a student at that university . . . . . . . . . . .",
+    "question": "Какая вычислительная сеть объединяет абонентов, расположенных в различных странах, на различных континентах?",
     "options": [
-      "many years ago",
-      "since many years",
-      "next year",
-      "nowadays"
+      "глобальная",
+      "региональная",
+      "локальная",
+      "корпоративная"
     ],
     "correct": 0
   },
   {
-    "question": "I had a great time . . . . . . . . . . the first two years at university, but after that there was a lot of work.",
+    "question": "Какая из нижеследующих функций является логической в программе Microsoft Excel?",
     "options": [
-      "for",
-      "since",
-      "in",
-      "at"
+      "ЕСЛИMН",
+      "СУММ",
+      "МАХ",
+      "СРЗНАЧ"
     ],
     "correct": 0
   },
   {
-    "question": "An ability to do something well, especially because you have practiced it: . . . . . . . . . .",
+    "question": "Какая модель облачного сервиса используется в основном конечными пользователями?",
     "options": [
-      "Skill",
-      "Aptitude",
-      "Background",
-      "Knowledge"
+      "Программное обеспечение как услуга (SaaS)",
+      "Платформа как услуга» (PaaS)",
+      "Инфраструктура как услуга» (IaaS)",
+      "Все как услуга (EaaS)"
     ],
     "correct": 0
   },
   {
-    "question": "The type of education, experience and family that you have: _________",
+    "question": "Какая операция выполняется при использовании данной формулы =R5^2?",
     "options": [
-      "background",
-      "skills",
-      "knowledge",
-      "aptitude"
+      "Возводит в квадрат ячейку R5",
+      "Умножает на 2 ячейку R5",
+      "Возводит в квадратный корень ячейку R5",
+      "Делит на 2 ячейку R5"
     ],
     "correct": 0
   },
   {
-    "question": "Finish phrase with the best collocation: Make a career __________",
+    "question": "Какая сеть используется при построении блокчейн?",
     "options": [
-      "choice",
-      "bonus",
-      "skills",
-      "placement"
+      "Одноранговая",
+      "Клиент-серверная",
+      "Локальная",
+      "Корпоративная"
     ],
     "correct": 0
   },
   {
-    "question": "Finish phrase with the best collocation: Reach your long-term _________",
+    "question": "Какие ИС выполняют все операции по переработке информации без участия человека?",
     "options": [
-      "goals",
-      "skills",
-      "application",
-      "job"
+      "автоматические ИС",
+      "ручные ИС",
+      "автоматизированые ИС",
+      "экспертные ИС"
     ],
     "correct": 0
   },
   {
-    "question": "Finish phrase with the best collocation: Prefer money rather than job ___________",
+    "question": "Какие ИС предполагают участие в процессе обработки информации и человека, и технических средств, причем главная роль отводится компьютеру?",
     "options": [
-      "satisfaction",
-      "plan",
-      "choice",
-      "skills"
+      "автоматизированые ИС",
+      "автоматические ИС",
+      "ручные ИС",
+      "неавтоматизированные ИС"
     ],
     "correct": 0
   },
   {
-    "question": "Finish phrase with the best collocation: Learn new _______",
+    "question": "Какие ИС характеризуются отсутствием современных технических средств переработки информации и выполнением всех операций человеком?",
     "options": [
-      "skills",
-      "experience",
-      "choice",
-      "application"
+      "ручные ИС",
+      "автоматические ИС",
+      "автоматизированые ИС",
+      "экспертные ИС"
     ],
     "correct": 0
   },
   {
-    "question": "Finish phrase with the best collocation: Gain __________",
+    "question": "Какие программы, предназначены для управления выполнением пользовательских программ, планирования и управления вычислительными ресурсами компьютера?",
     "options": [
-      "experience",
-      "plan",
-      "choice",
-      "placement"
+      "Операционные системы",
+      "Операционные оболочки",
+      "Утилиты",
+      "Языки программирования"
     ],
     "correct": 0
   },
   {
-    "question": "Finish phrase with the best collocation: Send off a job __________",
+    "question": "Какова основная цель информационной технологии?",
     "options": [
-      "application",
-      "skills",
-      "building",
-      "bonus"
+      "получение информации",
+      "обработка информации",
+      "сбор информации",
+      "передача информации руководству организации"
     ],
     "correct": 0
   },
   {
-    "question": "What is the one thing you are most proud of in your present job? What is your greatest ___________?",
+    "question": "Какое сочетание клавиш запустит презентацию с текущего слайда?",
     "options": [
-      "achievement",
-      "achieve",
-      "achieving",
-      "achieves"
+      "Shift+F5",
+      "Ctrl+F5",
+      "Shift+Ctrl+F5",
+      "Alt+F5"
     ],
     "correct": 0
   },
   {
-    "question": "What are the positive things you can bring to the team? What is your _________?",
+    "question": "Какое устройство из ниже перечисленных, входит в базовую конфигурацию компьютера?",
     "options": [
-      "strength",
-      "strong",
-      "strongest",
-      "stronger"
+      "клавиатура",
+      "принтер",
+      "сканер",
+      "звуковые колонки"
     ],
     "correct": 0
   },
   {
-    "question": "He insisted … seeing the workshop and conformed …the poor working conditions.",
+    "question": "Какой редактор презентаций из представленных ниже лучше использовать для разработки креативных презентаций?",
     "options": [
-      "on/on",
-      "in/on",
-      "at/after",
-      "after/in"
+      "Prezi",
+      "Google Slides",
+      "Libre Office Impress",
+      "ФотоШОУ PRO"
     ],
     "correct": 0
   },
   {
-    "question": "Full investigation of a company’s activities and finances: ___________",
+    "question": "Какой редактор презентаций из представленных ниже является облачным ресурсом?",
     "options": [
-      "due diligence",
-      "merger",
-      "acquisition",
-      "assets"
+      "Prezi",
+      "Apple Keynote",
+      "Libre Office Impress",
+      "Microsoft PowerPoint"
     ],
     "correct": 0
   },
   {
-    "question": "The amount of money that a company owes: ___________",
+    "question": "Какую модель облачного сервиса используют в основном разработчики приложений?",
     "options": [
-      "liabilities",
-      "liquidity",
-      "turnover",
-      "merger"
+      "Платформа как услуга» (PaaS)",
+      "Программное обеспечение как услуга (SaaS)",
+      "Инфраструктура как услуга» (IaaS)",
+      "Все как услуга (EaaS)"
     ],
     "correct": 0
   },
   {
-    "question": "The process of combining two companies to form a bigger one: __________",
+    "question": "Компьютерные ресурсы, объединенные в так называемый пул, который представляет собой набор служб, проектируемый и контролируемый частным предприятием – это",
     "options": [
-      "merger",
-      "assets",
-      "turnover",
-      "acquisition"
+      "Частное облако",
+      "Публичное облако",
+      "Гибридное облако",
+      "Общественное облако"
     ],
     "correct": 0
   },
   {
-    "question": "Things such as money, buildings or equipment that a person or company owns: _________",
+    "question": "Компьютерный алгоритм, предназначенный для заключения и поддержания коммерческих контрактов в технологии блокчейн – это",
     "options": [
-      "assets",
-      "turnover",
-      "liabilities",
-      "costs"
+      "Смарт-контракт",
+      "Электронный контракт",
+      "Консенсусный алгорит",
+      "Международный контракт"
     ],
     "correct": 0
   },
   {
-    "question": "Total amount of money coming into a company from sales (usually given as an annual figure): ________",
+    "question": "Критерии оптимальности технологического процесса - это",
     "options": [
-      "turnover",
-      "sales",
-      "fixed costs",
-      "assets"
+      "своевременность доставки информации пользователям, её надежность, достоверность и полнота",
+      "получение информации",
+      "интеграции информации",
+      "обработки информации"
     ],
     "correct": 0
   },
   {
-    "question": "Reductions in the cost of producing a unit of a product that occur as the output increases:",
+    "question": "Модель какой страны использовала Республика Узбекистан при разработке и внедрении системы Электронного правительства?",
     "options": [
-      "economies of scale",
-      "merger",
-      "acquisition",
-      "liquidity"
+      "Южной Кореи",
+      "США",
+      "Великобритании",
+      "Японии"
     ],
     "correct": 0
   },
   {
-    "question": "Costs that alter directly when the business alters its level of output: _______",
+    "question": "На какие классы делятся сети в зависимости от территориального расположения абонентских систем",
     "options": [
-      "variable costs",
-      "sales",
-      "assets",
-      "turnover"
+      "глобальные, региональные, локальные,",
+      "одноранговые, много ранговые",
+      "низко, средне и высоко скоростные",
+      "глобальные и локальные"
     ],
     "correct": 0
   },
   {
-    "question": "Costs that do not alter when the business alters its level of output: ________",
+    "question": "Набор команд и инструкций, группируемых вместе в виде единой команды для автоматического выполнения задачи - это",
     "options": [
-      "fixed costs",
-      "liabilities",
-      "liquidity",
-      "sales"
+      "макрос",
+      "модуль",
+      "программа",
+      "буквица"
     ],
     "correct": 0
   },
   {
-    "question": "Measure of a company’s ability to quickly convert assets into cash: _________",
+    "question": "Некоммерческие (условно-бесплатные) программы, которые могут использоваться, как правило, бесплатно– это",
     "options": [
-      "liquidity",
-      "assets",
-      "turnover",
-      "sales"
+      "Shareware",
+      "Freeware",
+      "ОЕМ-программы",
+      "Утилитарные программы"
     ],
     "correct": 0
   },
   {
-    "question": "Change frequently, especially from a high level to a low one and back again: _______",
+    "question": "Обеспечение клиенту возможности управления банковским счетом через Интернет на основе систем электронных платежей:",
     "options": [
-      "fluctuate",
-      "rise",
-      "peak",
-      "climb"
+      "Интернет-банкинг",
+      "Интернет-трейдинг",
+      "Интернет страхование",
+      "Интернет маркетинг"
     ],
     "correct": 0
   },
   {
-    "question": "Stop changing and become steady: __________",
+    "question": "Общедоступное облако, созданное для больших групп пользователей, инфраструктура которой создается и обслуживается провайдером, предоставляющим облачные услуги – это",
     "options": [
-      "stabilize",
-      "rise",
-      "dip",
-      "peak"
+      "Публичное облако",
+      "Частное облако",
+      "Гибридное облако",
+      "Общественное облако"
     ],
     "correct": 0
   },
   {
-    "question": "_________ is an agreement that unites two existing companies into one new company.",
+    "question": "Под информационной системой понимается:",
     "options": [
-      "A merger",
-      "An acquisition",
-      "Market share",
-      "Consolidation"
+      "Взаимосвязанная совокупность средств, методов и персонала, используемых для хранения, обработки и выдачи информации в интересах достижения поставленной цели",
+      "Совокупность информации, функционирующей в экономическом объекте",
+      "Система источников информации и сбора данных",
+      "Совокупность средств и методов обработки информации"
     ],
     "correct": 0
   },
   {
-    "question": "__________is the percent of total sales in an industry generated by a particular company.",
+    "question": "Интранет – это",
     "options": [
-      "Market share",
-      "A merger",
-      "An acquisition",
-      "Corporation"
+      "локальная корпоративная сеть, построенная с использованием тех же технологий, что и Интернет, которым пользуются только сотрудники.",
+      "глобальная, всемирная сеть, объединяющая миллиарды компьютеров, серверов и других устройств по всему миру с помощью стандартных протоколов передачи данных",
+      "удобный инструмент для совместной работы, позволяющий внешним партнёрам подключаться к внутренним ресурсам компании без потери безопасности.",
+      "стандарт проводного соединения компьютеров и устройств в локальной сети."
     ],
     "correct": 0
   },
   {
-    "question": "The ___________ in an industry is the company with the largest market share.",
+    "question": "Под программным обеспечением информационной системы (ИС) понимается:",
     "options": [
-      "market leader",
-      "a shareholder",
-      "corporation",
-      "a merger"
+      "Совокупность программных средств с соответствующей документацией, необходимых для реализации целей и задач ИС, а также нормального функционирования комплекса технических средств",
+      "Комплексы системных и специальных программ",
+      "Комплекс прикладных программ",
+      "Программная документация, необходимая для реализации функций системы"
     ],
     "correct": 0
   },
   {
-    "question": "___________, unlike mergers, or generally not voluntary and involve one company actively purchasing another.",
+    "question": "Под техническим обеспечением информационной системы (ИС) понимается:",
     "options": [
-      "Acquisitions",
-      "Mergers",
-      "Corporations",
-      "Enterprise"
+      "Комплекс технических средств, предназначенных для обработки данных в ИС, а также соответствующую документацию на эти средства",
+      "Совокупность программных средств",
+      "Взаимосвязанный набор устройств обработки данных",
+      "Персонал"
     ],
     "correct": 0
   },
   {
-    "question": "This is a merger between two or more companies engaged in unrelated business activities. The firms may operate in different industries or in different geographical regions.",
+    "question": "При перемещении или копировании в электронной таблице абсолютные ссылки:",
     "options": [
-      "Conglomerate",
-      "Congeneric",
-      "Market extension",
-      "Acquisition"
+      "не изменяются",
+      "преобразуются вне зависимости от нового положения формулы",
+      "преобразуются в зависимости от нового положения формулы",
+      "преобразуются в зависимости от длины формулы"
     ],
     "correct": 0
   },
   {
-    "question": "This type of merger occurs between companies that sell the same products but compete in different markets. companies that engage in a market extension merger seek to gain access to a bigger market.",
+    "question": "При перемещении или копировании в электронной таблице относительные ссылки:",
     "options": [
-      "market extension",
-      "conglomerate",
-      "congeneric",
-      "division"
+      "преобразуются в зависимости от нового положения формулы",
+      "не изменяются",
+      "преобразуются вне зависимости от нового положения формулы",
+      "преобразуются в зависимости от длины формулы"
     ],
     "correct": 0
   },
   {
-    "question": "What is the synonym of “merger”?",
+    "question": "Принтер - это:",
     "options": [
-      "Combination",
-      "Disconnection",
-      "Dividing",
-      "Union"
+      "Устройство для вывода информации на бумагу",
+      "Устройство для долговременного хранения информации",
+      "Устройство для записи информации на магнитный диск",
+      "Устройство чтения информации с компакт-диска"
     ],
     "correct": 0
   },
   {
-    "question": "What is the antonym of “merger”?",
+    "question": "Программа Power Point это",
     "options": [
-      "Split",
-      "Combination",
-      "Union",
-      "Connection"
+      "графический редактор подготовки презентаций и слайд – фильмов",
+      "табличный процессор обработки многогранных ведомостей и таблиц",
+      "графический редактор, позволяющий создавать сложные рисунки",
+      "текстовый редактор, позволяющий создавать и работать с текстовыми документами и графикой"
     ],
     "correct": 0
   },
   {
-    "question": "What is the meaning of ‘acquisition’?",
+    "question": "Программная реализация на компьютере решения задачи это:",
     "options": [
-      "The purchase of one business enterprise by another;",
-      "The specific percentage of total industry sales of a particular product achieved by a single company in a given period of time.",
-      "Any combination of two or more business enterprises into a single enterprise.",
-      "The type of merger when both the entities loses its existence"
+      "Приложение",
+      "Программное обеспечение",
+      "Программа",
+      "Алгоритм"
     ],
     "correct": 0
   },
   {
-    "question": "What is the meaning of ‘merger’?",
+    "question": "Продвижение товаров и услуг через онлайн-сервисы – это",
     "options": [
-      "Any combination of two or more business enterprises into a single enterprise.",
-      "A holder or owner of shares, especially in a company or corporation.",
-      "The purchase of one business enterprise by another",
-      "A partnership"
+      "Интернет маркетинг",
+      "Интернет страхование",
+      "Интернет-трейдинг",
+      "Интернет-банкинг"
     ],
     "correct": 0
   },
   {
-    "question": "Choose the appropriate answer. Before graduating , Josef ________ jobs in twenty companies.",
+    "question": "Протокол – это:",
     "options": [
-      "applied for",
-      "registered from",
-      "short- listed",
-      "phoned"
+      "правила организации передачи данных в сети",
+      "пакет данных",
+      "правила хранения данных в сети",
+      "структуризация данных в сети"
     ],
     "correct": 0
   },
   {
-    "question": "He likes new things and new places, even if they are difficult or dangerous. She is ______.",
+    "question": "Процесс подтверждения транзакций и включения их в глобальный список – блокчейн (blockchain) – это",
     "options": [
-      "adventurous",
-      "selfish",
-      "clever",
-      "mean"
+      "Майнинг",
+      "Консенсусный механизм",
+      "Аутентификация",
+      "Авторизация"
     ],
     "correct": 0
   },
   {
-    "question": "Peter never gets upset or annoyed when things go wrong. He is a very ______ man.",
+    "question": "Развитие информационной системы во времени",
     "options": [
-      "easy-going",
-      "attractive",
-      "hard-working",
-      "Mad"
+      "это обеспечение динамичности развития информационной технологии, возможность её модернизации и модификации, изменение структуры и т.д.",
+      "состоит в повышении эффективности производства за счет внедрения современных средств вычислительной техники, распределенных баз данных, различных вычислительных сетей",
+      "предполагает организацию взаимосвязи информационной технологии с объектами управления, внешними предприятиями, организациями",
+      "означает, что информационная технология является целостной системой, способной решать задачи, не свойственные ни одному из её компонентов"
     ],
     "correct": 0
   },
   {
-    "question": "What does the CEO stand for?",
+    "question": "Распределенная база данных, у которой устройства хранения данных не подключены к общему серверу – это",
     "options": [
-      "Chief Executive Officer",
-      "Commission of Economic Operations",
-      "Commonwealth of Economic Offices",
-      "Cooperation of European Organizations"
+      "Блокчейн",
+      "Банк данных",
+      "База знаний",
+      "Хранилища данных"
     ],
     "correct": 0
   },
   {
-    "question": "Choose the best ending to the given verb   EXCHANGE…",
+    "question": "С какого года в Узбекистане функционирует Единый портал интерактивных государственных услуг?",
     "options": [
-      "the product",
-      "the symptoms",
-      "a full refund",
-      "the problem"
+      "2013 года",
+      "2011 года",
+      "2009 года",
+      "2015 года"
     ],
     "correct": 0
   },
   {
-    "question": "Choose the best ending to the given verb   GIVE…",
+    "question": "С помощью какого инструмента Word можно быстро выделить текст с помощью специальных эффектов?",
     "options": [
-      "a full refund",
-      "the symptoms",
-      "the problem",
-      "the fault"
+      "WordArt",
+      "SmartArt",
+      "макроса",
+      "буквицы"
     ],
     "correct": 0
   },
   {
-    "question": "Choose the best ending to the given verb   SORT OUT…",
+    "question": "С помощью какого инструмента Word можно быстро и легко создать визуальное представление информации в виде схем, диаграмм и рисунков?",
     "options": [
-      "a problem",
-      "a customer",
-      "a full refund",
-      "a visit"
+      "SmartArt",
+      "WordArt",
+      "макроса",
+      "буквицы"
     ],
     "correct": 0
   },
   {
-    "question": "Most of the people . . . . . . . . work at 8 o’clock every morning.",
+    "question": "С помощью какого средства программы EXCEL можно получить среднее арифметическое значение?",
     "options": [
-      "start",
-      "goes",
-      "does",
-      "finish"
+      "функции",
+      "сортировка",
+      "фильтрация",
+      "автосумма"
     ],
     "correct": 0
   },
   {
-    "question": ". . . . . . . . . . looks after money.",
+    "question": "Сервер — это:",
     "options": [
-      "An accountant",
-      "A postman",
-      "A nurse",
-      "A dentist"
+      "Один или несколько мощных компьютеров для обслуживания сети",
+      "Высокопроизводительный компьютер",
+      "Хранитель программы начальной загрузки",
+      "Мультимедийный компьютер с модемом."
     ],
     "correct": 0
   },
   {
-    "question": "How much money do you spend . . . . . . . . . . food each month?",
+    "question": "Система организационно-правовых мер и технических средств, направленная на обеспечение деятельности государственных органов по оказанию государственных услуг физическим и юридическим лицам путем применения информационно-коммуникационных технологий - это",
     "options": [
-      "on",
-      "at",
-      "for",
-      "to"
+      "Электронное правительство",
+      "Электронный документооборот",
+      "Электронное государство",
+      "Информационная система Кабинета Министров Республики Узбекистан"
     ],
     "correct": 0
   },
   {
-    "question": "During the job . . . . . . . . . . they asked me lots of really difficult questions.",
+    "question": "Система управления базами данных - это:",
     "options": [
-      "interview",
-      "chat",
-      "talk",
-      "conversation"
+      "Программная система, поддерживающая наполнение и манипулирование данными в файлах баз данных",
+      "Набор программ, обеспечивающий работу всех аппаратных устройств компьютера и доступ пользователя к ним",
+      "Прикладная программа для обработки текстов и различных документов",
+      "Оболочка операционной системы, позволяющая более комфортно работать с файлами"
     ],
     "correct": 0
   },
   {
-    "question": "World industries is planning to … . . . . . . .  over our business.",
+    "question": "Сканер - это",
     "options": [
-      "take",
-      "get",
-      "move",
-      "set"
+      "устройство ввода, которое переводит документы в цифровую информацию, понимаемую компьютером",
+      "стандартное устройство ввода числовой и текстовой информации",
+      "устройство для ввода звуковой информации",
+      "устройство для визуального воспроизведения символьной и графической информации"
     ],
     "correct": 0
   },
   {
-    "question": "I gave the waiter a $50 note and waited for my . . . . . . . . . .",
+    "question": "Слайд презентации представляет собой:",
     "options": [
-      "change",
-      "supply",
-      "cash",
-      "cost"
+      "отдельный кадр, который может включать в себя заголовок, текст, графику, диаграммы и т.д.",
+      "распечатанные в компактном виде два, четыре или шесть слайдов на одной странице",
+      "документ, содержащий только заголовки слайдов, а также основной текст без графических изображений и оформления",
+      "набор слайдов и спецэффектов, сопровождающих их показ на экране"
     ],
     "correct": 0
   },
   {
-    "question": "Bob . . . . . . . . . . a lot of money in his brother’s business and made a profit.",
+    "question": "Средства информационных технологий - это",
     "options": [
-      "invested",
-      "spent",
-      "saved",
-      "owed"
+      "технические, программные, информационные и другие средства, при помощи которых реализуется информационная технология на экономическом объекте",
+      "средства выполнения и комплекс технологических решений, используемых в качестве основы для построения определенного круга прикладных программ",
+      "система методов, алгоритмов, программных и аппаратных средств для ввода, обработки и отображения графической информации, а также для преобразования данных в графическую форму",
+      "система методов, алгоритмов, программных и аппаратных средств"
     ],
     "correct": 0
   },
   {
-    "question": "Would you be available to ________ a second interview next week?",
+    "question": "Строки электронной таблицы:",
     "options": [
-      "attend",
-      "answer",
-      "visit",
-      "invite"
+      "нумеруются",
+      "именуются пользователем произвольным образом",
+      "обозначаются буквами русского алфавита А...Я",
+      "обозначаются буквами латинского алфавита"
     ],
     "correct": 0
   },
   {
-    "question": "How would you feel if we _______ you a position as a product manager?",
+    "question": "Таблица в базах данных предназначена:",
     "options": [
-      "offered",
-      "assume",
-      "hire",
-      "show"
+      "Для хранения данных базы",
+      "Для отбора и обработки данных базы",
+      "Для ввода данных базы и их просмотра",
+      "Для автоматического выполнения группы команд"
     ],
     "correct": 0
   },
   {
-    "question": "He ________ on his CV for a long time.",
+    "question": "Технология обработки данных, в которой компьютерные ресурсы и мощности предоставляются пользователю как Интернет-сервис – это",
     "options": [
-      "has been working",
-      "works",
-      "have worked",
-      "doesn’t work"
+      "Облачная технология",
+      "Технология блокчейн",
+      "Интернет технология",
+      "Технология обработки больших данных"
     ],
     "correct": 0
   },
   {
-    "question": "What are your __________ at your present job?",
+    "question": "Укажите полный состав компонентов, которые включает информационная система?",
     "options": [
-      "responsibilities",
-      "responsible",
-      "responsibility",
-      "response"
+      "аппаратное и программное обеспечение, телекоммуникации, базы и хранилища данных, человеческие ресурсы, процедуры",
+      "Методы и модели решений задач управления",
+      "Комплекс технических и программных средств",
+      "Методы организации данных, инструкции персоналу"
     ],
     "correct": 0
   },
   {
-    "question": "Mr. Singh ________ coffee over the interviewer’s papers.",
+    "question": "Укажите правильное написание адреса веб ресурса?",
     "options": [
-      "has spilt",
-      "has been spilt",
-      "is spilling",
-      "has made"
+      "http://www.gov.uz",
+      "www://http.gov.uz",
+      "isoft@gov.uz",
+      "http@www.gov.uz"
     ],
     "correct": 0
   },
   {
-    "question": "Sally _________ 100 job applications.",
+    "question": "Устройства ввода информации:",
     "options": [
-      "has written",
-      "has been writing",
-      "is writing",
-      "is written"
+      "Клавиатура, мышь, сенсорный экран, оптический сканер, световое перо, микрофон",
+      "Принтер, колонки, монитор",
+      "Процессор, колонки, микрофон",
+      "Принтер, монитор, сканер"
     ],
     "correct": 0
   },
   {
-    "question": "She __________ job applications since this morning.",
+    "question": "Устройством вывода текстовой информации является:",
     "options": [
-      "has been writing",
-      "is writing",
-      "have written",
-      "writes"
+      "экран дисплея",
+      "клавиатура",
+      "дисковод",
+      "мышь"
     ],
     "correct": 0
   },
   {
-    "question": "Harry ________ and offers a compromise.",
+    "question": "Уточните понятие базы данных:",
     "options": [
-      "negotiates",
-      "argues",
-      "debates",
-      "explain"
+      "Поименованная совокупность данных, отражающая состояние объектов и их отношений в рассматриваемой предметной области - это",
+      "Информация в компьютерном или некомпьютерном варианте",
+      "Источник информационных услуг",
+      "Совокупность данных существующих в библиотеках, архивах"
     ],
     "correct": 0
   },
   {
-    "question": "Part of income paid to government is ______.",
+    "question": "Хозяйственная деятельность, в которой ключевым фактором производства являются данные в цифровом виде, обработка больших объемов информации – это",
     "options": [
-      "taxes",
-      "bills",
-      "pay",
-      "account"
+      "Цифровая экономика",
+      "Электронное производство",
+      "Инновационная экономика",
+      "Информационная экономика"
     ],
     "correct": 0
   },
   {
-    "question": "______ is money for transport.",
+    "question": "Целью функционирования информационной системы является:",
     "options": [
-      "Fare",
-      "Pension",
-      "Interest",
-      "Salary"
+      "Полное и своевременное удовлетворение информационных потребностей конечных пользователей",
+      "Обеспечение информацией для обеспечения принимаемых решений",
+      "Представление информации, подготовленной для принятия решений",
+      "Представление информации с максимальной скоростью"
     ],
     "correct": 0
   },
   {
-    "question": "Money parents give children every week is called ______.",
+    "question": "Что из ниже следующего в информационной системе осуществляет выдачу информации?",
     "options": [
-      "pocket money",
-      "part-money",
-      "interest",
-      "rent"
+      "Выход",
+      "Обратная связь",
+      "Вход",
+      "Процесс"
     ],
     "correct": 0
   },
   {
-    "question": "______ is money from work, usually hourly or weekly.",
+    "question": "Что из ниже следующего в информационной системе осуществляет обработку информации?",
     "options": [
-      "Wages",
-      "Salary",
-      "Rent",
-      "Interest"
+      "Процесс",
+      "Обратная связь",
+      "Вход",
+      "Выход"
     ],
     "correct": 0
   },
   {
-    "question": "Money from work, usually monthly, is called ______.",
+    "question": "Что из ниже следующего в информационной системе осуществляет прием информации из вне?",
     "options": [
-      "salary",
-      "wages",
-      "fee",
-      "pay"
+      "Вход",
+      "Процесс",
+      "Обратная связь",
+      "Выход"
     ],
     "correct": 0
   },
   {
-    "question": "She loves meeting people and going to parties. she is a very ______ person.",
+    "question": "Что не входит в функции системы управления базами данных?",
     "options": [
-      "sociable",
-      "ignorant",
-      "learned",
-      "shy"
+      "Обеспечение локальной связи",
+      "Организация хранения информации",
+      "Обеспечение целостности данных",
+      "Выдача информации по запросам"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Что произойдёт при нажатии на заголовок столбца таблицы с указателем мыши в программе Microsoft Excel",
+    "options": [
+      "Выделение столбца полностью",
+      "Активизация столбца",
+      "Перенос курсора на выделенный столбец",
+      "Выделение видимой области столбца на экране"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Что произойдёт при нажатии на порядковый номер строки таблицы с указателем мыши в программе Microsoft Excel",
+    "options": [
+      "Выделение строки полностью",
+      "Активизации строки",
+      "Перенос курсора на выделенную строку",
+      "Выделение видимой области строки"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Что произойдет, если во время презентации (демонстрации слайдов) будет нажата клавиша Esc?",
+    "options": [
+      "Прекратится показ слайдов",
+      "Будет переход на следующий слайд",
+      "Будет переход на предыдущий слайд",
+      "Будет переход на последний слайд"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Что произойдет, если указателем мыши два раза щёлкнуть над файлом с расширением «*.pptх» ?",
+    "options": [
+      "Запускается программа Microsoft PowerPoint и в нее загружается выбранный документ",
+      "Запускается программа Microsoft Word и в нее загружается выбранный документ",
+      "Запускается программа Microsoft Excel и в нее загружается выбранный документ",
+      "Запускается программа Microsoft WordPad и в нее загружается выбранный документ"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Что происходит при двойной нажатии левой кнопки мыши на файл имеющий расширение «*.doc»",
+    "options": [
+      "Запускается программа Microsoft Word и в нее загружается выбранный документ",
+      "Запускается программа Microsoft Excel и в нее загружается выбранный документ",
+      "Запускается программа Microsoft PowerPoint и в нее загружается выбранный документ",
+      "Запускается программа Microsoft WordPad и в нее загружается выбранный документ"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Что происходить при двойном щелчке левой кнопки мыши на файл имеющий расширение «*.xls»",
+    "options": [
+      "Запускается программа Microsoft Excel и в нее загружается выбранный документ",
+      "Запускается программа Microsoft Word и в нее загружается выбранный документ",
+      "Запускается программа Microsoft PowerPoint и в нее загружается выбранный документ",
+      "Запускается программа Microsoft WordPad и в нее загружается выбранный документ"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Что такое ACCESS?",
+    "options": [
+      "Система проектирования и управления базами данных",
+      "Язык программирования",
+      "Операционная система",
+      "Автоматизированная система"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Электронная таблица — это:",
+    "options": [
+      "прикладная программа, предназначенная для обработки структурированных в виде таблицы данных",
+      "прикладная программа для обработки кодовых таблиц",
+      "устройство персонального компьютера, управляющее его ресурсами в процессе обработки данных в табличной форме",
+      "системная программа, управляющая ресурсами персонального компьютера при обработке таблиц"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Электронное устройство, которое принимает, запоминает и обрабатывает данные под управлением набора инструкций -",
+    "options": [
+      "компьютер",
+      "калькулятор",
+      "принтер",
+      "смартфон"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Основными функциями текстовых редакторов являются…",
+    "options": [
+      "редактирование текста, форматирование текста, работа со стилями",
+      "создание таблиц и выполнение расчетов по ним",
+      "разработка графических приложений",
+      "создание баз данных"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Текстовый редактор – это:",
+    "options": [
+      "прикладное программное обеспечение, используемое для создания текстовых документов и работы с ними",
+      "прикладное программное обеспечение, используемое для создания таблиц и работы с ними",
+      "прикладное программное обеспечение, используемое для автоматизации задач бухгалтерского учета",
+      "программное обеспечение, используемое для создания приложений"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Что такое компьютерный вирус?",
+    "options": [
+      "Программа, выполняющая на компьютере несанкционированные действия.",
+      "Прикладная программа.",
+      "Системная программа.",
+      "База данных."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Размер файла в операционной системе определяется",
+    "options": [
+      "в байтах",
+      "в битах",
+      "в секторах",
+      "в кластерах"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Во время исполнения прикладная программа хранится…",
+    "options": [
+      "в оперативной памяти",
+      "в видеопамяти",
+      "в процессоре",
+      "на жестком диске"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Антивирусные программы предназначены для –",
+    "options": [
+      "предотвращения заражения компьютерным вирусом и ликвидации последствий заражения",
+      "управления компьютером, запуска программ, обеспечения защиты данных, выполнения различных сервисных функций по запросам пользователя и программ",
+      "расширения возможности ОС",
+      "проверки работоспособности устройств компьютера и т.д."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Укажите единицы измерения информации по возрастанию",
+    "options": [
+      "бит, байт, килобайт, мегабайт",
+      "бит, байт, мегабайт, килобайт",
+      "бит, теробайт, мегабайт",
+      "байт, бит, килобайт, мегабайт"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Как называется внутренняя частная сеть организации или крупного государственного ведомства?",
+    "options": [
+      "Интранет",
+      "Экстранет",
+      "Интернет",
+      "Телнет"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Как называется использующая Интернет-технологии корпоративная сеть, которая объединяет все филиалы компании, ее партнеров и клиентов и содержит выделенные области, к которым разрешен доступ внешних пользователей?",
+    "options": [
+      "Экстранет",
+      "Интранет",
+      "Интернет",
+      "Телнет"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Для каких целей создан Единый портал интерактивных государственных услуг? Выберите наиболее полный ответ.",
+    "options": [
+      "создан в целях предоставления доступа пользователей к электронным государственным услугам",
+      "создан в целях автоматизации обмена данных между подразделениями госорганов",
+      "создан в целях автоматизации получения справок",
+      "создан в целях автоматизации подачи жалоб органам государственного управления"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Какая модель электронной коммерции подразумевает коммерческие отношения между юридическими лицами, экономическими субъектами рынка?",
+    "options": [
+      "В2В (Business-to-Business)",
+      "B2C (Business-to-Consumer)",
+      "B2G (Business-to-Government)",
+      "С2С (Consumer-to-Consumer)"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Какая модель электронной коммерции предполагает торговлю товарами и услугами между юридическими и физическими лицами?",
+    "options": [
+      "B2C (Business-to-Consumer)",
+      "В2В (Business-to-Business)",
+      "B2G (Business-to-Government)",
+      "С2С (Consumer-to-Consumer)"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Какая модель электронной коммерции подразумевает осуществление сделок между физическими лицами?",
+    "options": [
+      "С2С (Consumer-to-Consumer)",
+      "B2C (Business-to-Consumer)",
+      "В2В (Business-to-Business)",
+      "B2G (Business-to-Government)"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Какая модель электронной коммерции включает в себя следующих участников рынка: юридические лица – компании, корпорации, бренды с одной стороны и муниципальные органы, государственные инстанции – с другой?",
+    "options": [
+      "B2G (Business-to-Government)",
+      "С2С (Consumer-to-Consumer)",
+      "B2C (Business-to-Consumer)",
+      "В2В (Business-to-Business)"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Какая модель электронной коммерции подразумевает обеспечение доступа к государственной информации через онлайн-сервисы?",
+    "options": [
+      "G2C (Government-to-Citizens)",
+      "B2G (Business-to-Government)",
+      "B2C (Business-to-Consumer)",
+      "В2В (Business-to-Business)"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Способность цифрового компьютера или робота с компьютерным управлением выполнять задачи, обычно связанные с разумными существами – это",
+    "options": [
+      "Искусственный интеллект",
+      "Электронный интеллект",
+      "Компьютерный интеллект",
+      "Разумный компьютер"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Реактивный ИИ",
+    "options": [
+      "запрограммирован на предоставление предсказуемых результатов на основе полученных входных данных",
+      "учится на прошлом и накапливает знания на основе опыта, наблюдая за действиями или данными",
+      "может понимать и запоминать эмоции, а затем корректировать поведение на основе этих эмоций при взаимодействии с людьми",
+      "осознает свои собственные эмоции, а также эмоции окружающих"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "ИИ с ограниченной памятью",
+    "options": [
+      "учится на прошлом и накапливает знания на основе опыта, наблюдая за действиями или данными",
+      "запрограммирован на предоставление предсказуемых результатов на основе полученных входных данных",
+      "может понимать и запоминать эмоции, а затем корректировать поведение на основе этих эмоций при взаимодействии с людьми",
+      "осознает свои собственные эмоции, а также эмоции окружающих"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Теория разума ИИ",
+    "options": [
+      "может понимать и запоминать эмоции, а затем корректировать поведение на основе этих эмоций при взаимодействии с людьми",
+      "запрограммирован на предоставление предсказуемых результатов на основе полученных входных данных",
+      "учится на прошлом и накапливает знания на основе опыта, наблюдая за действиями или данными",
+      "осознает свои собственные эмоции, а также эмоции окружающих"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Самосознающий ИИ",
+    "options": [
+      "осознает свои собственные эмоции, а также эмоции окружающих",
+      "запрограммирован на предоставление предсказуемых результатов на основе полученных входных данных",
+      "учится на прошлом и накапливает знания на основе опыта, наблюдая за действиями или данными",
+      "может понимать и запоминать эмоции, а затем корректировать поведение на основе этих эмоций при взаимодействии с людьми"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Из скольких взаимозависимых уровней состоит архитектура облачных сервисов?",
+    "options": [
+      "из трех уровней",
+      "из двух уровней",
+      "из пяти уровней",
+      "из четырех уровней"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Из каких взаимозависимых уровней состоит архитектура облачных сервисов?",
+    "options": [
+      "инфраструктура, платформа, приложения",
+      "инфраструктура, веб-сайт, облачный документ",
+      "облачный документ, платформа, приложения",
+      "веб-сайт, облачный документ, платформа"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Какими видами угроз безопасности может подвергаться система облачных вычислений?",
+    "options": [
+      "угрозы целостности, конфиденциальности и доступности её ресурсов",
+      "угрозы данных и виртуальной инфраструктуры",
+      "все перечисленные",
+      "только угрозы целостности"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Угрозы целостности, конфиденциальности и доступности её ресурсов, данных и виртуальной инфраструктуры относятся к ……….",
+    "options": [
+      "облачным вычислениям",
+      "базе данных",
+      "сетевым технологиям",
+      "нет правильного ответа"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Хранение данных в облаке означает, что эти данные содержатся на ……………….",
+    "options": [
+      "общедоступных серверах",
+      "в платформах",
+      "в базе данных",
+      "в google таблицах"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Что представляет собой виртуальная машина, которая хранится в виде образа?",
+    "options": [
+      "отдельный файл",
+      "отдельную папку",
+      "отдельный документ",
+      "веб-документ"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Куда могут перемещаться виртуальные машины и клонируются ли они?",
+    "options": [
+      "да, виртуальные машины клонируются и могут перемещаться между физическими серверами",
+      "да, виртуальные машины клонируются и могут перемещаться между платформами",
+      "нет, виртуальные машины не клонируются и не могут перемещаться между физическими серверами",
+      "нет, виртуальные машины клонируются и не могут перемещаться между платформами"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Что такая конфиденциальность облачных вычислений?",
+    "options": [
+      "это скрытие информации и ресурсов",
+      "это достоверность данных или ресурсов",
+      "основной компонент для внедрения политики ИТ-безопасности",
+      "разграничения сегментов сети"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Что такая целостность облачных вычислений?",
+    "options": [
+      "это достоверность данных или ресурсов",
+      "это скрытие информации и ресурсов",
+      "основной компонент для внедрения политики ИТ-безопасности",
+      "разграничения сегментов сети"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Какое ниже перечисленное относятся к относятся межсетевому экрану?",
+    "options": [
+      "межсетевой экран - основной компонент для внедрения политики ИТ-безопасности и разграничения сегментов сети – не в состоянии повлиять на серверы, размещённые в облачных средах",
+      "межсетевой экран - это скрытие информации и ресурсов",
+      "межсетевой экран- это достоверность данных или ресурсов, обычно связана с предотвращением любых некорректных или неавторизованных изменений.",
+      "Все ниже перечисленные"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Как определяется доступность облачных вычислений?",
+    "options": [
+      "определяется способностью использовать информацию или ресурсы",
+      "определяется достоверностью данных или ресурсов",
+      "определяется разграничению сегментов сети",
+      "Нет правильного ответа"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Какие ниже перечисленные основные компоненты облачной подсистемы Фреш относятся?",
+    "options": [
+      "менеджер доступности, центр контроля качество, агент сервиса",
+      "прикладные решения, кластер сервирвов",
+      "менеджер доступности, прикладные решения",
+      "кластер сервирвов, агент сервиса"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "К какому компоненту облачной подсистемы относятся данное описание - «хранит информацию о доступности или недоступности ресурсов сервиса и предоставляет эту информацию другим компонентам сервиса»",
+    "options": [
+      "Менеджер доступности",
+      "Агент сервиса",
+      "Менеджер сервиса",
+      "Нет правильного ответа"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "С какого компонента облачной подсистемы Фреш относятся данное определение?",
+    "options": [
+      "Агент сервиса",
+      "Менеджер сервиса",
+      "Менеджер доступности",
+      "нет правильного ответа"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Что означает Multitenancy?",
+    "options": [
+      "что один экземпляр программного обеспечения, запущенного на сервере, обслуживает множество клиентов",
+      "что два экземпляра программного обеспечения, запущенного на сервере, обслуживает множество клиентов",
+      "что два экземпляра программного обеспечения, запущенного на сервере, обслуживает двух клиентов",
+      "что три экземпляра программного обеспечения, запущенного на сервере, обслуживает пять клиентов"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Инструмент обработки больших списков данных и представляющий собой интерактивную таблицу - это",
+    "options": [
+      "Сводная таблица",
+      "Таблица данных",
+      "Список",
+      "Спарклайн"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Каким инструментом Microsoft Exsel нужно воспользоваться чтобы найти значения, которые нужно ввести в одиночную формулу, чтобы получить желаемый (известный) результат?",
+    "options": [
+      "Подбор параметра",
+      "Сводная таблица",
+      "Таблица данных",
+      "Поиск решения"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Каким образом можно выделить с помощи мыши абзац в программе Microsoft Word?",
+    "options": [
+      "Путем тройного щелчка левой кнопки мыши на любое место выделяемого абзаца",
+      "Путем двойного щелчка левой кнопки мыши на любое место выделяемого абзаца",
+      "Путем нажатия правой кнопки мыши на любое место выделяемого абзаца и выбора пункта меню выделить абзац",
+      "Путем тройного щелчка правой кнопки мыши на любое место выделяемого абзаца"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Какой из перечисленных параметров является параметром форматирования символов:",
+    "options": [
+      "цвет шрифта",
+      "межстрочный интервал",
+      "отступ первой строки абзаца",
+      "тип выравнивания"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Какой из перечисленных параметров является параметром форматирования абзаца в документе текстового редактора Word:",
+    "options": [
+      "межстрочный интервал",
+      "цвет шрифта",
+      "межсимвольный интервал",
+      "начертание"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "С помощью какого пункта меню Microsoft Word можно вставить формулу в таблицу?",
+    "options": [
+      "вкладка Макет в группе Данные кнопка Формула",
+      "вкладка Вставка в группе Данные кнопка Формула",
+      "вкладка Конструктор в группе Данные кнопка Формула",
+      "вкладка Файл в группе Данные кнопка Формула"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Что происходит при нажатии комбинации клавиш «Ctrl+End» в документах Microsoft Word?",
+    "options": [
+      "Переход к концу документа",
+      "Переход к началу документа",
+      "Переход на следующую страницу документа",
+      "Переход на предыдущую страницу документа"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Что происходит при нажатии комбинации клавиш «Ctrl+Home» в документах Microsoft Word",
+    "options": [
+      "Переход к началу документа",
+      "Переход к концу документа",
+      "Переход на следующую страницу документа",
+      "Переход на предыдущую страницу документа"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Что происходить при двойном щелчке левой кнопки мыши на файл имеющий расширение «*.xls»",
+    "options": [
+      "Запускается программа Microsoft Excel и в нее загружается выбранный документ",
+      "Запускается программа Microsoft Word и в нее загружается выбранный документ",
+      "Запускается программа Microsoft PowerPoint и в нее загружается выбранный документ",
+      "Запускается программа Microsoft WordPad и в нее загружается выбранный документ"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "В ячейку D3 введена формула =В1*С2. Содержимое D3 скопировали в ячейку D7. Какая формула будет в D7?",
+    "options": [
+      "=В5*С6",
+      "=В4*С5",
+      "=В1*С2",
+      "=В6*С6"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Какой Интернет протокол отвечает за доставку отдельных пакетов информации?",
+    "options": [
+      "Протокол IP",
+      "Протокол TCP",
+      "Протокол FTP",
+      "Протокол HTTP"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Какой Интернет протокол следит за тем, чтобы отправляемые данные были правильно нарезаны, а потом восстановлен в точности в исходном виде?",
+    "options": [
+      "Протокол TCP",
+      "Протокол IP",
+      "Протокол FTP",
+      "Протокол HTTP"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Какой протокол является основным протоколом в сети интернет?",
+    "options": [
+      "TCP, IP",
+      "IP, HTTP",
+      "ISOS, IANC",
+      "HTML, Web, W"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Какой протокол является протоколом услуги WWW?",
+    "options": [
+      "HTTP",
+      "POP3",
+      "FTP",
+      "IP"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Как называется услуга, при помощи которой можно размещать веб сайты или иную информацию пользователей на сервер провайдера?",
+    "options": [
+      "Хостинг",
+      "Прокси",
+      "WWW",
+      "Домен"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Укажите системы безналичных денежных платежей",
+    "options": [
+      "UzCard, CLICK, SMS-Банкинг, PAYME",
+      "UzCard, CLICK, SMS -Банкинг, кассовая платежная система",
+      "UzCard, PAYME, кассовая платежная система",
+      "UzCard, PAYME, Uzasbo"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Какой клавишей клавиатуры необходимо воспользоваться, чтобы пометить группы файлов и папок последовательно один за другим?",
+    "options": [
+      "Shift",
+      "Alt",
+      "Ctrl",
+      "Esc"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Какой клавишей клавиатуры необходимо воспользоваться, чтобы пометить файлы и папки в случайном порядке?",
+    "options": [
+      "Ctrl",
+      "Alt",
+      "Esc",
+      "Shift"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Как называется объект, имеющий имя, расширение и объем, включающий в себя какую-либо информацию?",
+    "options": [
+      "Файл",
+      "Ярлык",
+      "Папка",
+      "Программа"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Электронное устройство для отправления и получения компьютерных сигналов через систему телефонной связи",
+    "options": [
+      "модем",
+      "колонки",
+      "клавиатура",
+      "Принтер"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Что составляет структуру таблицы в БД?",
+    "options": [
+      "запись и поле",
+      "поле и столбец",
+      "ячейка и поле",
+      "столбец и ячейка"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Свойство автоматического наращивания имеет поле в таблице БД:",
+    "options": [
+      "счетчик",
+      "числовое",
+      "мемо",
+      "логическое"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Какой из ниже перечисленных элементов не является объектом MS Access?",
+    "options": [
+      "Книга",
+      "Таблица",
+      "Запрос",
+      "Отчет"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Вариант соединения компьютеров между собой, когда кабель проходит от одного компьютера к другому, последовательно соединяя компьютеры и периферийные устройства между собой – это:",
+    "options": [
+      "линейная шина",
+      "соединение типа «звезда»",
+      "древовидная топология",
+      "соединение типа «кольцо»"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Если к каждому компьютеру подходит отдельный кабель из одного центрального узла – это:",
+    "options": [
+      "соединение типа «звезда»",
+      "линейная шина",
+      "древовидная топология",
+      "соединение типа «шина»"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Что такое гиперссылка?",
+    "options": [
+      "указатель обеспечивающий переход с одного документа на другой (или с одного Web-документа на другой)",
+      "подчёркнутый текст, выделенный жирным шрифтом",
+      "выделенный фрагмент текста",
+      "примечание к тексту"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Выберите верную запись формулы для электронной таблицы",
+    "options": [
+      "=A2*A3-A4",
+      "C3+4*D4",
+      "C3=C1+2*C2",
+      "A5B5+23"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "В ячейке C4 формула =B4/B2. Как она будет выглядеть, если переместить ее в ячейку C5?",
+    "options": [
+      "B5/B3",
+      "С4/С2",
+      "C4/B2",
+      "B4/B2"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Что означает если в ячейке Excel в результате вычисления по формуле появилось выражение \" #ЗНАЧ!\"?",
+    "options": [
+      "один из аргументов функции содержит недопустимую переменную (например, текст) компьютер выполнил недопустимую операцию",
+      "число, полученное в результате вычисления по формуле, превышает заданные размеры ячейки",
+      "это означает, что необходимо изменить формат ячеек, содержащих аргументы функции (например, \"Текстовый\" формат заменить на \"Числовой\")"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "В ячейке А1 электронной таблицы записано 10 , в В1 формула=А1/2 , в С1: =СУММ(А1:В1)*2 . Найдите значение в С1",
+    "options": [
+      "30",
+      "15",
+      "20",
+      "10"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Какая информация требуется от пользователя для входа в систему?",
+    "options": [
+      "Логин и пароль",
+      "Только пароль",
+      "Только логин",
+      "Имя и фамилия"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Что произойдёт, если при входе в систему неправильно введены пароль и логин пользователя?",
+    "options": [
+      "Запрашивается повторный ввод логина и пароля",
+      "Запрашивается повторный ввод логина",
+      "Запрашивается повторный ввод пароля",
+      "Система повторно запускается"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Какой клавишей клавиатуры необходимо воспользоваться, чтобы пометить группы файлов и папок последовательно один за другим?",
+    "options": [
+      "[Shift]",
+      "[Ctrl]",
+      "[Enter]",
+      "[Esc]"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Какой клавишей клавиатуры необходимо воспользоваться, чтобы пометить файлы и папки в случайном порядке?",
+    "options": [
+      "[Ctrl]",
+      "[Shift]",
+      "[Enter]",
+      "[Esc]"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Укажите правильно записанную формулу в Excel",
+    "options": [
+      "= F56-C3",
+      "=#$B$2- 5",
+      "=(F3+3А+H3+I3)/4",
+      "=$2$B*С5*"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Операционная система представляет собой программный продукт, входящий в состав",
+    "options": [
+      "системного программного обеспечения прикладного",
+      "программного обеспечения",
+      "системы управления базами данных",
+      "систем программирования"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Программой-архиватором называют",
+    "options": [
+      "программу для сжатия файлов",
+      "систему управления базами данных",
+      "программу резервного копирования файлов",
+      "программу защищаюшую от копирования"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Архивный файл отличается от исходного тем, что",
+    "options": [
+      "он занимает меньше места на диске",
+      "доступ к нему занимает меньше времени",
+      "он в большей степени удобен для редактирования",
+      "он легче защищается от вирусов"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Клавиатура, мышь, микрофон, ... логически продолжите список",
+    "options": [
+      "сканер",
+      "системный блок",
+      "принтер",
+      "монитор"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Монитор, принтер, колонки, ... логически продолжите список",
+    "options": [
+      "плоттер",
+      "системный блок",
+      "мышь",
+      "микрофон"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "При помощи какого действия можно безвозвратно удалить объект?",
+    "options": [
+      "Shift+Delete",
+      "Delete",
+      "Backspace",
+      "F8"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Какие типы данных используются в СУБД MS Access для хранения больших объемов текста?",
+    "options": [
+      "МЕМО",
+      "Текстовый",
+      "OLE",
+      "Гиперссылка"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Какие типы данных используются в СУБД MS Access для хранения графических объектов?",
+    "options": [
+      "OLE",
+      "Текстовый",
+      "MEMO",
+      "Гиперссылка"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Каково назначение ключевого поля в СУБД?",
+    "options": [
+      "Создание связей между таблицами",
+      "Сортировка данных",
+      "Фильтрация данных",
+      "Создание новых таблиц"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Макросы в СУБД MS Access используются для:",
+    "options": [
+      "автоматизации работы",
+      "ввода и редактирования данных",
+      "создания подпрограмм",
+      "экспорта данных"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Как называется стандартный протокол сети Интернет?",
+    "options": [
+      "TCP/IP",
+      "PPP",
+      "SLIP",
+      "ISO"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Укажите какой сетевой топологии не существует.",
+    "options": [
+      "локальная",
+      "Звезда",
+      "Шина",
+      "Кольцо"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Как называется схема соединения компьютеров в сети?",
+    "options": [
+      "топологией",
+      "шиной",
+      "кольцо",
+      "звездой"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Какие сети называются одно ранговыми?",
+    "options": [
+      "Сети в которых все компьютеры равноправны",
+      "Сети соединённые одним кабелем",
+      "Сети соединённые через сервер",
+      "Сети в которых все компьютеры не равноправны"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Что означает появление ####### при выполнении расчетов?",
+    "options": [
+      "ширина ячейки меньше длины полученного результата",
+      "ошибка в формуле вычислений",
+      "отсутствие результата",
+      "отсутствие данных"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "В какой модели базы данных элементы в записи упорядочены, т.е. один элемент считается главным, остальные подчиненными?",
+    "options": [
+      "иерархической модели",
+      "внешней модели",
+      "реляционной модели",
+      "сетевой модели"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Как можно выделить предложение с помощью мыши и клавиатуры в Microsoft Word?",
+    "options": [
+      "Удерживая клавишу CTRL щелчок левой кнопки мыши на предложение, которое нужно выделить",
+      "Установить курсор на предложение, которое нужно выделить и нажать комбинацию клавиш “Ctrl+А”",
+      "Установить курсор на предложение, которое нужно выделить и выполнить команду контекстной меню “Выделить”",
+      "Тройной щелчок левой кнопки мыши на предложение, которое нужно выделить"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Что такое веб-браузер?",
+    "options": [
+      "Это тип программного обеспечения, которое извлекает и представляет информационные ресурсы в Интернете",
+      "Программа ввода и форматирования текста",
+      "Среда функциональной разметки документа",
+      "Программа распознавания текста"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Что не характерно для локальной сети?",
+    "options": [
+      "возможность обмена информацией на большие расстояния",
+      "большая скорость передачи информации",
+      "большая пропускная способность сети",
+      "наличие связующего для всех абонентов высокоскоростного канала для передачи информации в цифровом виде"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Какой Интернет протокол отвечает за доставку отдельных пакетов информации?",
+    "options": [
+      "Протокол IP",
+      "Протокол TCP",
+      "Протокол FTP",
+      "Протокол HTTP"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Какой Интернет протокол следит за тем, чтобы отправляемые данные были правильно нарезаны, а потом восстановлен в точности в исходном виде?",
+    "options": [
+      "Протокол TCP",
+      "Протокол IP",
+      "Протокол FTP",
+      "Протокол HTTP"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Найдите правильную расшифровку модели B2B",
+    "options": [
+      "Бизнес для бизнеса",
+      "Бизнес для потребителя",
+      "Бизнес для государства",
+      "Потребитель для бизнеса"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Что такое цифровая подпись?",
+    "options": [
+      "код, который однозначно идентифицирует автора и является электронным эквивалентом собственноручной письменной подписи",
+      "Подпись поставленная определёнными цифрами, которая отличает людей",
+      "Подпись переведенная на формат цифр, с помощью программы",
+      "Формат подписи, обозначающая принадлежность подписи отдельному лицу"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Какая из приведенных характеристик не относится к преимуществам технологии «Блокчейн»?",
+    "options": [
+      "Кибер-атака",
+      "Легкость аудита",
+      "Доверие",
+      "Выгода"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Форма электронной коммерции С2C – это взаимодействие",
+    "options": [
+      "потребитель – потребитель",
+      "предприятие – предприятие",
+      "потребитель – предприятие",
+      "предприятие – потребитель"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Форма электронной коммерции С2В – это взаимодействие",
+    "options": [
+      "потребитель – предприятие",
+      "предприятие – предприятие",
+      "предприятие – потребитель",
+      "потребитель – потребитель"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Межкорпоративное взаимодействие в системе “предприятие-предприятие” с использованием стандартов электронного обмена данными для предачи деловой информации - это сектор",
+    "options": [
+      "B2B",
+      "C2B",
+      "B2C",
+      "B2G"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Сектор B2G включает в себя",
+    "options": [
+      "Оказание услуг или поставление товаров, бизнес - решения, предлогаемые той или иной формой государтсву",
+      "Совокупность методов и технологий для выполнения онлайновых транзакций между потребителями",
+      "Централизованные услуги государтсва, местных органов власти, выполняющих функции государтсвенных органов",
+      "Внутри корпоративную систему, позволяющую организовывать работу персонала компании и вести совместную бизнес-деятельность сотрудников"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Что является ключевым фактором в цифровой экономике?",
+    "options": [
+      "Данные в цифровом виде",
+      "Ручной труд",
+      "Физическое производство",
+      "Использование бумажных носителей"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Какой сектор электронной коммерции проявлется в сборе налогов и взносов",
+    "options": [
+      "G2B",
+      "B2B",
+      "C2B",
+      "B2G"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Сектор B2C дает возможность",
+    "options": [
+      "Вести прямые продажи с минимальным количеством посредников, устанавливать конкурентные цены на местах и увеличивать",
+      "Сбора налогов и взносов, добровольную или обязательную передачу информации и заключение публичных договоров",
+      "Потребителям публиковать проблемы, запрашивать обратную связь или информацию непосредственно от органов власти в электронном виде",
+      "Упращение административных процедур, способствующих созданию интернет-коммунальных услуг и электронных форм"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "VR/AR технологии это-",
+    "options": [
+      "информационная среда, существующая внутри сгенирированного компьютером информационного пространство",
+      "Рост проектов в корпоративной сфере",
+      "Детализация технологических процессов",
+      "Разработка программ"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Прикладное программное обеспечение для организаций, предназначенное для автоматизации стратегий взаимодействия с заказчиками (клиентами., в частности для повышения уровня продаж)",
+    "options": [
+      "CRM",
+      "ARM",
+      "BRM",
+      "VR/AR"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Основные свойства искусственного интеллекта-",
+    "options": [
+      "Это понимание языка, обучение и способность обучению и что немаловажно, действовать",
+      "Ощущение, восприятие, разумение и др.",
+      "Это общая способность к познанию и решению трудностей",
+      "логические задачи, которые решается с помощью теории игр"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Чат-бот что это такое ?",
+    "options": [
+      "Это программа собеседник, которая предназначена для общения и помощи человеку",
+      "Предназначена для перевозки товаров",
+      "Предназначена для решения электронных задач",
+      "альтернативная форма робота"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Web-сайт, содержащий несколько электронных магазинов и каталогов, который расположен под известной торговой маркой и использующий систему защиты платёжных транзакций, – это …",
+    "options": [
+      "электронная торговая площадка",
+      "Рынки",
+      "Виртуальная реальность",
+      "электронный торговый центр"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "….это система расчетов между финансовыми организациями, бизнес-организациями и интернет-пользователями при покупке-продаже товаров и за различных услуг через интернет.",
+    "options": [
+      "электронная платежная система",
+      "традиционная платежная система",
+      "банковская платежная система",
+      "финансовая платежная система"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Информационная среда, существующая внутри сгенерированного компьютером информационного пространства и включающая содержательные тексты, графические и видео материалы, звуковые оформления…",
+    "options": [
+      "Виртуальная реальность",
+      "Смешанная реальность",
+      "дополненная реальность",
+      "Аддитивные технологии"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Технология «Блокчейн»- это …",
+    "options": [
+      "Это виртуальная цепочка блоков, в которых записывается информация",
+      "Это основная технология майнинга криптовалют",
+      "Это второе название биткоинов, электронных денег",
+      "Технология заблокирования данных"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Что такое SMM в интернет маркетинге ?",
+    "options": [
+      "SMM—это собственно продвижение сайта, товара, услуги и т. п. в соцсетях",
+      "SMM —это системное исследование состояния сети",
+      "SMM —это изучение системыв безопасности в сети",
+      "SMM —это распространение SMS сообщений в сети"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Что такое облачные вычисления?",
+    "options": [
+      "Обработка данных на удаленных серверах через интернет",
+      "Хранение данных на локальном сервере",
+      "Использование компьютерных ресурсов без интернета",
+      "Программирование без использования данных"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Какие три основные модели обслуживания предлагают облачные вычисления?",
+    "options": [
+      "Platform as a Service, Infrastructure as a Service, Software as a Service",
+      "Software as a Service, Infrastructure as a Service, Data as a Service",
+      "Database as a Service, Platform as a Service, Software as a Service",
+      "Network as a Service, Software as a Service, Infrastructure as a Service"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Что представляет собой частное облако?",
+    "options": [
+      "Инфраструктура, предназначенная для использования одной организацией",
+      "Инфраструктура, предназначенная для свободного использования широкой публикой",
+      "Комбинация частных и публичных облаков",
+      "Инфраструктура, предназначенная для специфической группы организаций"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Чему способствует публичное облако?",
+    "options": [
+      "Использованию инфраструктуры любым пользователем или организацией",
+      "Использованию инфраструктуры внутри одной организации",
+      "Объединению частных и общественных облаков",
+      "Использованию облака группой организаций с общими требованиями"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Какой недостаток характерен для облачных хранилищ?",
+    "options": [
+      "Необходимость в постоянном интернет-соединении",
+      "Полная автономия от интернета",
+      "Высокая стоимость оборудования",
+      "Низкая мобильность данных"
     ],
     "correct": 0
   }
