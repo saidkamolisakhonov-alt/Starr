@@ -60,7 +60,8 @@ def init_session(user_id: int):
     user_sessions[user_id] = {
         "order": order,
         "current": None,
-        "correct": None
+        "correct": None,
+        "options": None
     }
 
 def get_question(user_id: int):
@@ -80,17 +81,36 @@ async def send_question(user_id: int, chat_id: int):
     random.shuffle(indexed)
 
     options = [o[1] for o in indexed]
+
+    # индекс правильного ответа в перемешанном списке
     correct = next(i for i, o in enumerate(indexed) if o[0] == q["correct"])
+
     user_sessions[user_id]["correct"] = correct
+    user_sessions[user_id]["options"] = options
 
-    kb = InlineKeyboardMarkup(
-        inline_keyboard=[
-            [InlineKeyboardButton(text=opt, callback_data=str(i))]
-            for i, opt in enumerate(options)
-        ]
-    )
+    letters = ["A", "B", "C", "D", "E", "F"]
 
-    await bot.send_message(chat_id, q["question"], reply_markup=kb)
+    # ===== текст вопроса + варианты =====
+    text = f"📝 {q['question']}\n\n"
+    for i, opt in enumerate(options):
+        text += f"{letters[i]}) {opt}\n\n"
+
+    # ===== кнопки 2×2 =====
+    rows = []
+    row = []
+
+    for i in range(len(options)):
+        row.append(InlineKeyboardButton(text=letters[i], callback_data=str(i)))
+        if len(row) == 2:
+            rows.append(row)
+            row = []
+
+    if row:
+        rows.append(row)
+
+    kb = InlineKeyboardMarkup(inline_keyboard=rows)
+
+    await bot.send_message(chat_id, text, reply_markup=kb)
 
 # ================== HANDLERS ==================
 @dp.message(CommandStart())
@@ -112,15 +132,26 @@ async def answer(callback: types.CallbackQuery):
     correct_answer = session["correct"]
 
     q = QUESTIONS[session["current"]]
-    correct_text = q["options"][q["correct"]]
+
+    # правильный вариант (в перемешанном виде)
+    options = session.get("options", q["options"])
+    correct_text = options[correct_answer]
 
     if user_answer == correct_answer:
-        text = f"{q['question']}\n\n✅ Верно!\n\nОтвет:\n{correct_text}"
+        result = "🎉 Верно!"
     else:
-        text = f"{q['question']}\n\n❌ Неверно\n\nВерный ответ:\n{correct_text}"
+        result = "❌ Неверно"
 
-    await callback.message.edit_text(text)
-    await asyncio.sleep(2)
+    text = (
+        f"📝 {q['question']}\n\n"
+        f"✅ Правильный ответ:\n{correct_text}\n\n"
+        f"{result}"
+    )
+
+    await callback.message.edit_text(text, reply_markup=None)
+    await callback.answer()
+
+    await asyncio.sleep(1.5)
     await send_question(user_id, callback.message.chat.id)
 
 # ================== ADMIN ==================
@@ -129,9 +160,15 @@ async def usinfo(message: types.Message):
     if message.from_user.id != ADMIN_ID:
         return
 
-    text = f"👥 Пользователей: {len(users)}\n\n"
-    for u in users[-10:]:
-        text += f"{u['first_name']} (@{u['username']})\nID: {u['id']}\n\n"
+    users_list = load_json("users.json", [])
+
+    text = f"👥 Пользователей: {len(users_list)}\n\n"
+    for u in users_list:
+        text += (
+            f"{u.get('first_name', 'Без имени')} (@{u.get('username')})\n"
+            f"ID: {u['id']}\n"
+            f"С: {u['joined']}\n\n"
+        )
 
     await message.answer(text)
 
@@ -167,11 +204,10 @@ async def broadcast(message: types.Message):
         f"Не доставлено: {failed}"
     )
 
-
-
 # ================== START ==================
 async def main():
     print("🤖 Bot started (Railway)")
+    await bot.delete_webhook(drop_pending_updates=True)
     await dp.start_polling(bot)
 
 if __name__ == "__main__":
