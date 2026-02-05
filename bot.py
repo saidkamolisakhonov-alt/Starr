@@ -1,4 +1,4 @@
-import asyncio
+весб клдimport asyncio
 import json
 import random
 import os
@@ -143,12 +143,14 @@ async def answer(callback: types.CallbackQuery):
         result = "❌ Неверно"
 
     text = (
-        f"📝 {q['question']}\n\n"
-        f"✅ Правильный ответ:\n{correct_text}\n\n"
-        f"{result}"
+    f"{result}\n\n"
+    f"📝 {q['question']}\n\n"
+    f"Правильный ответ:\n"
+    f"<b>{correct_text}</b>"
     )
 
-    await callback.message.edit_text(text, reply_markup=None)
+
+    await callback.message.edit_text(text, reply_markup=None, parse_mode="HTML")
     await callback.answer()
 
     await asyncio.sleep(1.5)
