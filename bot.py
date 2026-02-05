@@ -1,4 +1,4 @@
-весб клдimport asyncio
+import asyncio
 import json
 import random
 import os
