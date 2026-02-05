@@ -138,7 +138,7 @@ async def answer(callback: types.CallbackQuery):
     correct_text = options[correct_answer]
 
     if user_answer == correct_answer:
-        result = "🎉 Верно!"
+        result = "✅ Верно! ✅"
     else:
         result = "❌ Неверно"
 
